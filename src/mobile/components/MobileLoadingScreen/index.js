@@ -24,7 +24,7 @@ export const MobileLoadingScreen = ({
     <Container startExperience={rollUp}>
       <Body>
         <Head>
-          <Heading>Dive into my</Heading>
+          <Heading>Welcome To My World Of</Heading>
           <br />
           <TypeWriterBody>
             {" "}
@@ -33,12 +33,12 @@ export const MobileLoadingScreen = ({
                 <Typewriter
                   options={{
                     strings: [
-                      "Space.",
-                      "World.",
-                      "Story.",
-                      "Reality.",
-                      "Domain.",
-                      "Realm."
+                      "Full Stack Web Apps.",
+                      "Innovative Web Solutions.",
+                      "Cutting-edge Web Development.",
+                      "Creative Web Experiences.",
+                      "Next-level Web Applications.",
+                      "Revolutionary Web Technologies."
                     ],
                     autoStart: true,
                     loop: true
@@ -49,12 +49,11 @@ export const MobileLoadingScreen = ({
           </TypeWriterBody>
         </Head>
         <Paragraph>
-          I am Nnaemeka, a Passionate Software Developer with a relentless drive
-          to create captivating and seamless user experiences.
+          I am Supratim, a Passionate Software Developer building Bridges in Bits and Bytes: Exploring the Full Spectrum of Web Development
         </Paragraph>
         <LoadingContainer onClick={progress === 100 ? Explore : null}>
           <TextContainer>
-            <LoadText> {progress < 100 ? "Loading ..." : "Explore"}</LoadText>
+            <LoadText> {progress < 100 ? "Loading ..." : "Follow my journey"}</LoadText>
             {progress === 100 ? <ExploreLottie /> : null}
           </TextContainer>
           <LoadFiller progress={progress} />
@@ -72,7 +71,7 @@ const Container = styled.div`
   z-index: 100;
   height: 100vh;
   width: 100vw;
-  background-color: black;
+  background-image: url('https://getwallpapers.com/wallpaper/full/c/1/6/6346.jpg'); 
   color: white;
   box-sizing: border-box;
   display: flex;

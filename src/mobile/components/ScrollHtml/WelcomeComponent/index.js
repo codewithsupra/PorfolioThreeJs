@@ -8,7 +8,7 @@ export const WelcomeComponent = ({ opacity }) => {
   return (
     <Container opacity={opacity}>
       <ScrollLottie />
-      <Text>Scroll to Explore.</Text>
+      <Text>  Keep scrolling for more</Text>  
     </Container>
   );
 };
@@ -17,8 +17,11 @@ const Container = styled(PageContainer)`
   position: relative;
   height: 100vh;
   width: 100vw;
-  background-color: white;
-  color: black;
+  background-image: url('https://getwallpapers.com/wallpaper/full/c/1/6/6346.jpg'); /* Replace the URL with the image URL from Google */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
   padding: 2rem 3rem;
   box-sizing: border-box;
   display: flex;
