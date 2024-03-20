@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/PortfolioThreeJs/static/css/main.dd856221.css",
+    "main.js": "/PortfolioThreeJs/static/js/main.b9913b58.js",
+    "static/media/naija_charades.jpg": "/PortfolioThreeJs/static/media/naija_charades.0ceccf8af1fd633c876e.jpg",
+    "static/media/reactNative.png": "/PortfolioThreeJs/static/media/reactNative.52920dda6f510e9046e2.png",
+    "static/media/photoshop.png": "/PortfolioThreeJs/static/media/photoshop.6649f1dacc3b1d9bde12.png",
+    "static/media/bloxx logo.png": "/PortfolioThreeJs/static/media/bloxx logo.f2d99166700728313e9e.png",
+    "static/media/unity.png": "/PortfolioThreeJs/static/media/unity.43a9b85934639cd3cbf0.png",
+    "static/media/steadCare.ico": "/PortfolioThreeJs/static/media/steadCare.ffe89640c66db33cff97.ico",
+    "index.html": "/PortfolioThreeJs/index.html",
+    "main.dd856221.css.map": "/PortfolioThreeJs/static/css/main.dd856221.css.map",
+    "main.b9913b58.js.map": "/PortfolioThreeJs/static/js/main.b9913b58.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd856221.css",
+    "static/js/main.b9913b58.js"
+  ]
+}
